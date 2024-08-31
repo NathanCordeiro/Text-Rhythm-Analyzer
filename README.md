@@ -43,3 +43,6 @@ python -m nltk.downloader cmudict punkt
    analyzer.analyze_and_export(sample_text)
    ```
 
+## License
+
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
