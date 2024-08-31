@@ -24,3 +24,22 @@ python -m spacy download en_core_web_sm
 python -m nltk.downloader cmudict punkt
 ```
 
+## Setup and Usage
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/NathanCordeiro/Text-Rhythm-Analyzer.git
+   cd Text-Rhythm-Analyzer
+   ```
+2. Run the Script
+   ```
+   python Text-Rhythm-Analyzer.py
+   ```
+3. Analyze Custom Text
+   ```
+   sample_text = """
+   Your custom text here.
+   """
+
+   analyzer.analyze_and_export(sample_text)
+   ```
+
